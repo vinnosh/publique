@@ -38,7 +38,7 @@ const ProductDetail = ({ addToCart }) => {
       <img src={product.image} alt={product.name} />
       <div className="detail-info">
         <h2>{product.name}</h2>
-        <p>${product.price.toFixed(2)}</p>
+        <p>RM{product.price.toFixed(2)}</p>
         <p>{product.description}</p>
         <button onClick={() => { addToCart(product); navigate('/'); }}>
           Add to Cart

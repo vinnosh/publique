@@ -37,11 +37,11 @@ const Checkout = ({ cart }) => {
             {cart.map((item) => (
               <li key={item.id}>
                 <span>{item.name} (x{item.quantity})</span>
-                <span>${(item.price * item.quantity).toFixed(2)}</span>
+                <span>RM{(item.price * item.quantity).toFixed(2)}</span>
               </li>
             ))}
           </ul>
-          <h3>Total: ${total.toFixed(2)}</h3>
+          <h3>Total: RM{total.toFixed(2)}</h3>
           <button className="checkout-confirm" onClick={handleCheckout}>
             Pay with Stripe
           </button>
