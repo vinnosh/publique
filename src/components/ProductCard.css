@@ -1,0 +1,22 @@
+/* src/components/ProductCard.css */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: 250px;
+  margin: 1rem;
+  background: #fff;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

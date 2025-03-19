@@ -1,0 +1,23 @@
+/* Product detail styling (add to index.css or create separate css file) */
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.product-detail img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.detail-info {
+  max-width: 400px;
+}
+
+.detail-info h2 {
+  margin-top: 0;
+}
