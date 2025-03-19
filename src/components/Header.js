@@ -12,7 +12,7 @@ const Header = ({ cartCount, toggleCart }) => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">PUBLIQUE</Link>
+        <Link to="/">PUBLIQE</Link>
       </div>
 
       <button className="hamburger" onClick={handleToggleMenu}>
